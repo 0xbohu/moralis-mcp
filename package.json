@@ -1,7 +1,7 @@
 {
   "name": "Moralis_MCP",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/server.js",
   "scripts": {
     "build": "tsc",
     "start": "tsx src/server.ts",
@@ -17,6 +17,9 @@
   ],
   "author": "block",
   "type": "module",
+  "bin": {
+    "moralis_mcp": "./dist/server.js"
+  },
   "license": "MIT",
   "description": "Moralis MCP Server",
   "dependencies": {
